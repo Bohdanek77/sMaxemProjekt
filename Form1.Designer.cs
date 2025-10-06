@@ -35,10 +35,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(290, 227);
+            label1.Location = new Point(266, 280);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(44, 20);
+            label1.Size = new Size(54, 25);
             label1.TabIndex = 0;
             label1.Text = "GLop";
             label1.Click += label1_Click;
@@ -46,20 +46,21 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(483, 89);
+            label2.Location = new Point(138, 39);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(59, 25);
             label2.TabIndex = 1;
             label2.Text = "label2";
             label2.Click += label2_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Snímek_obrazovky_2024_09_18_084440;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(800, 450);
             Controls.Add(label2);
             Controls.Add(label1);
             DoubleBuffered = true;
