@@ -12,7 +12,7 @@ namespace sMaxemProjekt
         {
             return a + b;
         }
-        public float Substract(float a, float b)
+        public float Subtract(float a, float b)
         {
             return a - b;
         }
@@ -31,7 +31,5 @@ namespace sMaxemProjekt
                 return a / b;
             }
         }
-
-       
     }
 }
