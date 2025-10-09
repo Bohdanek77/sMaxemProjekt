@@ -69,5 +69,15 @@ namespace sMaxemProjekt.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Snímek_obrazovky_2025_04_28_082933 {
+            get {
+                object obj = ResourceManager.GetObject("Snímek obrazovky 2025-04-28 082933", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
